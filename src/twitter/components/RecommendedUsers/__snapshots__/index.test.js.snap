@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <h2
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+  >
+    おすすめユーザー
+  </h2>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="MuiAvatar-root"
+    >
+      <img
+        alt="Remy Sharp"
+        className="MuiAvatar-img"
+        src="https://next.material-ui.com/static/images/avatar/1.jpg"
+      />
+    </div>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      Lizard
+    </h2>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="MuiAvatar-root"
+    >
+      <img
+        alt="Remy Sharp"
+        className="MuiAvatar-img"
+        src="https://next.material-ui.com/static/images/avatar/1.jpg"
+      />
+    </div>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      Lizard
+    </h2>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="MuiAvatar-root"
+    >
+      <img
+        alt="Remy Sharp"
+        className="MuiAvatar-img"
+        src="https://next.material-ui.com/static/images/avatar/1.jpg"
+      />
+    </div>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      Lizard
+    </h2>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="MuiAvatar-root"
+    >
+      <img
+        alt="Remy Sharp"
+        className="MuiAvatar-img"
+        src="https://next.material-ui.com/static/images/avatar/1.jpg"
+      />
+    </div>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      Lizard
+    </h2>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="MuiAvatar-root"
+    >
+      <img
+        alt="Remy Sharp"
+        className="MuiAvatar-img"
+        src="https://next.material-ui.com/static/images/avatar/1.jpg"
+      />
+    </div>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      Lizard
+    </h2>
+  </div>
+</div>
+`;
