@@ -112,7 +112,7 @@ exports[`renders correctly 1`] = `
             aria-label="logo"
             role="img"
           >
-            🐔
+            🐤
           </span>
         </h6>
       </div>

@@ -4,11 +4,11 @@ exports[`renders correctly 1`] = `
 <div
   className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
 >
-  <h2
-    className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+  <p
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
   >
     おすすめユーザー
-  </h2>
+  </p>
   <div
     style={
       Object {
