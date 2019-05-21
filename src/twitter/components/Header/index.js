@@ -40,7 +40,7 @@ export default function() {
               role="img"
             >
               <span role="img" aria-label="logo">
-                🐥
+                🐦
               </span>
             </Typography>
           </Grid>

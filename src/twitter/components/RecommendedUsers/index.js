@@ -6,7 +6,7 @@ import Avatar from "@material-ui/core/Avatar";
 export default function() {
   return (
     <Paper>
-      <Typography gutterBottom variant="h5" component="h2">
+      <Typography gutterBottom>
         おすすめユーザー
       </Typography>
       <div style={{ display: "flex", padding: 10 }}>
