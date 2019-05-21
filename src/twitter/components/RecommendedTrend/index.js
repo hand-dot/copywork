@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 export default function() {
   return (
     <Paper>
-      <Typography gutterBottom variant="h5" component="h2">
+      <Typography gutterBottom>
         おすすめトレンド
       </Typography>
       <Typography gutterBottom variant="body1">
