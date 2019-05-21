@@ -1,0 +1,19 @@
+{
+  "core": {
+    "workingDir": ".reg",
+    "actualDir": "directory_contains_actual_images",
+    "thresholdRate": 0,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-keygen-git-hash-plugin": true,
+    "reg-notify-github-plugin": {
+      "clientId": "M7QwNzYzMzI20k/OL6gszy/K1jc0MLC0MDXWz0jMS9FNyS8BAA=="
+    },
+    "reg-publish-gcs-plugin": {
+      "bucketName": "copywork"
+    }
+  }
+}
