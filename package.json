@@ -17,7 +17,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "reg-suit": "reg-suit run",
-    "zisui": "zisui --serverCmd 'start-storybook -p 9001' http://localhost:9001"
+    "zisui": "zisui --serverCmd 'start-storybook -p 9001' http://localhost:9001",
+    "gen": "schematics component-gen:react"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,11 +36,13 @@
     ]
   },
   "devDependencies": {
+    "@angular-devkit/schematics-cli": "^0.13.9",
     "@babel/core": "^7.4.4",
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
     "@storybook/react": "^5.0.11",
+    "component-gen": "^1.0.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.1",
     "enzyme-to-json": "^3.3.5",
