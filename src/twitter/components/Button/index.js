@@ -1,5 +1,5 @@
-import React from "react";
-
-export default function({ children, onClick }) {
-  return <button onClick={onClick}>{children}</button>;
+import React from 'react';
+import Button from '@material-ui/core/Button';
+export default function(props) {
+  return <Button {...props}>{props.children}</Button>;
 }

@@ -1,18 +1,18 @@
-import React from "react";
-import Typography from "@material-ui/core/Typography";
-import Avatar from "@material-ui/core/Avatar";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "../Button";
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import Avatar from '@material-ui/core/Avatar';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '../Button';
 
 export default function() {
   return (
     <Card>
       {/* TODO  ButtonBase のコンポーネントのjestのsnapshotがうまくいかない*/}
-      {/* <CardActionArea> */} 
+      <CardActionArea>
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -21,7 +21,7 @@ export default function() {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: 'flex' }}>
             <Avatar
               alt="Remy Sharp"
               src="https://next.material-ui.com/static/images/avatar/1.jpg"
@@ -31,7 +31,7 @@ export default function() {
             </Typography>
           </div>
         </CardContent>
-      {/* </CardActionArea> */}
+      </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
           1

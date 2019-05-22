@@ -2,11 +2,47 @@
 
 exports[`renders correctly 1`] = `
 <WithStyles(ForwardRef(Paper))>
-  <WithStyles(ForwardRef(Typography))
-    gutterBottom={true}
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
   >
-    おすすめユーザー
-  </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Avatar))
+      alt="Remy Sharp"
+      src="https://next.material-ui.com/static/images/avatar/1.jpg"
+    />
+    <input
+      placeholder="いまどうしてる？"
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": 10,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Avatar))
+      alt="Remy Sharp"
+      src="https://next.material-ui.com/static/images/avatar/1.jpg"
+    />
+    <WithStyles(ForwardRef(Typography))
+      component="h2"
+      gutterBottom={true}
+      variant="h5"
+    >
+      Lizard
+    </WithStyles(ForwardRef(Typography))>
+  </div>
   <div
     style={
       Object {
